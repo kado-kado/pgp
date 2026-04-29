@@ -1,5 +1,5 @@
 const FINGERPRINT_FILES = [
-        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/main/keys/line/fingerprint.md'
+        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/line/fingerprint.md'
     ];
 
 async function loadMarkdown() {
