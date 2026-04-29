@@ -1,7 +1,7 @@
 const KEY_FILES = [
-        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/main/keys/github/github.asc',
-        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/main/keys/proton/proton.asc',
-        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/main/keys/xrypton.56.ax/xrypton.asc'
+        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/github/github.asc',
+        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/proton/proton.asc',
+        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/xrypton.56.ax/xrypton.asc'
     ];
 
 async function init() {
@@ -20,7 +20,7 @@ async function createKeyCard(filePath) {
     card.innerHTML = `Loading ${filePath}...`;
     app.appendChild(card);
 
-    const parts = filePath.split('https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/main/keys/')[1]?.split('/') || [];
+    const parts = filePath.split('https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/')[1]?.split('/') || [];
     const snsName = parts[1] || 'Unknown';
 
     try {

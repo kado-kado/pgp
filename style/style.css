@@ -39,11 +39,12 @@ body {
     margin: 0;
     padding: 40px 20px;
     transition: background-color 0.3s ease;
+    overflow-wrap: anywhere;
 }
 
 h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 50px;
 }
 
@@ -63,7 +64,7 @@ a {
     margin: 6px 0;
     cursor: pointer;
     color: var(--text-main);
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 3;
     transition: background-color 0.2s ease, transform 0.1s, color 0.3s;
 }
@@ -97,7 +98,7 @@ a {
 }
 
 .sns-name {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 20px;
     display: flex;
@@ -106,14 +107,14 @@ a {
 }
 
 .status-badge {
-    font-size: 0.85rem;
+    font-size: 1.3rem;
     padding: 6px 14px;
     border-radius: 30px;
     font-weight: 700;
     border: 1px solid;
 }
 
-.status-ok, .status-active {
+.status-ok, .status-expired {
     color: var(--ok-text);
     background: var(--ok-bg);
     border-color: transparent;
@@ -128,7 +129,7 @@ a {
 .meta-item {
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 12px;
 }
 
@@ -139,7 +140,7 @@ a {
 .fp {
     margin-top: 20px;
     font-family: "SFMono-Regular", Consolas, monospace;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background: var(--fp-bg);
     padding: 16px;
     border-radius: 12px;
@@ -150,7 +151,7 @@ a {
 }
 
 .file-path {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--text-sub);
     margin-top: 20px;
     text-align: right;
