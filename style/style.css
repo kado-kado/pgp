@@ -114,7 +114,7 @@ a {
     border: 1px solid;
 }
 
-.status-ok, .status-expired {
+.status-ok, .status-active {
     color: var(--ok-text);
     background: var(--ok-bg);
     border-color: transparent;
