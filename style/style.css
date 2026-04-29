@@ -113,13 +113,13 @@ a {
     border: 1px solid;
 }
 
-.status-ok {
+.status-ok, .status-active {
     color: var(--ok-text);
     background: var(--ok-bg);
     border-color: transparent;
 }
 
-.status-error {
+.status-error, .status-expired, .status-warning {
     color: var(--err-text);
     background: var(--err-bg);
     border-color: transparent;
