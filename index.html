@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>kado PGP and Public Keys</title>
+        <script src="https://unpkg.com/openpgp@5.11.0/dist/openpgp.min.js"></script>
+        <link href="style/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>My PGPs</h1>
+        <div id="app" class="grid"></div>
+        <h1>LINE E2EE Fingerprint</h1>
+        <div class="grid">
+            <div class="card">
+                <div class="sns-name">LINE E2EE Fingerprint</div>
+                <div id="fingerprintContent"></div>
+            </div>
+        </div>
+        <p>copyright 2026 Kado. All rights reserved.</p>
+        <script src="script/pgp.js"></script>
+        <script src="script/fingerprint.js"></script>
+    </body>
+</html>
