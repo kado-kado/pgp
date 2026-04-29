@@ -1,5 +1,5 @@
 const CERTIFICATE_JSON = [
-        'https://raw.githubusercontent.com/kado-kado/pgp/keys/heads/main/keys/developer/certificate.json'
+        'https://raw.githubusercontent.com/kado-kado/pgp/refs/heads/keys/keys/developer/certificate.json'
     ];
 
 async function updateExpiryDisplay() {
